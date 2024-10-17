@@ -25,10 +25,10 @@
 //
 //      template <typename T> void foo(T) { }
 //
-//      int main()
+//      int main(void)
 //      {
 //            foo(detail::X());
-//            // prog.cc: In function 'int main()':
+//            // prog.cc: In function 'int main(void)':
 //            // prog.cc:2: error: 'struct detail::foo' is not a function,
 //            // prog.cc:6: error: conflict with 'template<class T> void foo(T)'
 //            // prog.cc:10: error: in call to 'foo'
